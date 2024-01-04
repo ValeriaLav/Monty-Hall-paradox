@@ -30,7 +30,7 @@ for _ in range(N):
     result = without_change(doors)
     if result == 'avtomobil':
         win_count += 1
-print('Число побед БЕЗ изменения вбора : ', win_count, 'в процентах : ', win_count/N)
+print('Число побед БЕЗ изменения выбора : ', win_count, 'в процентах : ', win_count/N)
 
 win_count = 0
 for _ in range(N):
@@ -38,7 +38,7 @@ for _ in range(N):
     if result == 'avtomobil':
         win_count += 1
 
-print('Число побед С изменением вбора : ', win_count, 'в процентах : ', win_count/N)
+print('Число побед С изменением выбора : ', win_count, 'в процентах : ', win_count/N)
 
 
 
